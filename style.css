@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(88, 90, 90);
+    background-position: middle;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    
+}
+
+#bg-right  {
+    background-color: rgb(238, 242, 242);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 7%;
+    right: 7%;
+    z-index: -1;
+} 
+
+
+  h1 {
+    color: rgb(16, 12, 12);
+    text-align: center;
+  }
+  div {background-color: rgb(67, 72, 72);
+    opacity: 0.3;
+ }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    color: black;
+  }
+
+  a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
