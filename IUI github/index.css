@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(221, 223, 223);
+    background-position: middle;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    
+}
+
+#bg-right  {
+    background-color: rgba(210, 205, 205, 0.703);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 10%;
+    right: 10%;
+    z-index: -1;
+} 
+h1 {
+    color: rgb(16, 12, 12);
+    text-align: center;
+    font-family: patrick+hand+cs;
+  }
+  
+  p {
+    font-family: patrick hand cs;
+    font-size: 20px;
+    color: black;
+  }
+  pre {
+    font-family: patrick hand cs;
+    font-size: 20px;
+    color: black;
+
+  }
+
+  a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
