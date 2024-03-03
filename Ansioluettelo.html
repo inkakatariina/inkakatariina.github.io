@@ -6,91 +6,96 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="w3school.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.google.com/css?family=Patrick+Hand+SC'rel="stylesheet">
     <style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    .menu {
-      float: left;
-      width: 20%;
-      text-align: center;
-    }
-    
-    .menu a {
-      background-color: #c7c6c6;
-      padding: 8px;
-      margin-top: 7px;
-      display: block;
-      width: 100%;
-      color: black;
-    }
-    
-    .main {
-      float: left;
-      width: 50%;
-      padding: 0 20px;
-    }
-    
-    .right {
-      background-color: #c7c6c6;
-      float: right;
-      width: 20%;
-      padding: 30px;
-      margin-top: 30px;
-      text-align: center;
-    }
-  
-    @media only screen and (max-width: 620px) {
-      /* For mobile phones: */
-      .menu, .main, .right {
+      * {
+        box-sizing: border-box;
+      }
+      
+      .menu {
+        float: left;
+        width: 20%;
+        text-align: center;
+      }
+      
+      .menu a {
+        background-color: #c7c6c6;
+        padding: 8px;
+        margin-top: 7px;
+        display: block;
         width: 100%;
+        color: black;
       }
-    }
-   
-    body {
-      background-color: rgb(221, 223, 223)
-    }
-    
-    @media only screen and (max-width: 600px) {
+      
+      .main {
+        float: left;
+        width: 50%;
+        padding: 0 20px;
+      }
+      
+      .right {
+        background-color: #c7c6c6;
+        float: right;
+        width: 25%;
+        padding: 15px;
+        margin-top: 15px;
+        text-align: center;
+      }
+      @media only screen and (max-width: 620px) {
+        /* For mobile phones: */
+        .menu, .main, .right {
+          width: 100%;
+        }
+      }
+     
       body {
-        background-color: rgb(131, 133, 133);
+        background-color: rgb(221, 223, 223)
       }
-    }
+      
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: rgb(131, 133, 133);
+        }
+      }
+      body {
+    background-color: rgb(221, 223, 223);
+    color: black;
+  }
+  
+  /* On screens that are 992px wide or less, the background color is blue */
+  @media screen and (max-width: 992px) {
     body {
-  background-color: rgb(221, 223, 223);
-  color: black;
-}
-
-/* On screens that are 992px wide or less, the background color is blue */
-@media screen and (max-width: 992px) {
-  body {
-    background-color: rgb(131, 133, 133);
-    color: white;
+      background-color: rgb(131, 133, 133);
+      color: white;
+    }
   }
-}
-
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: rgb(105, 107, 107);
-    color: white;
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(105, 107, 107);
+      color: white;
+    }
   }
-}
+      </style>
+      </head>
+      <!-- Font Awesome Icon Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <body style="font-family:courier;color:#010101;">
+        <style>
+          .checked {
+            color: rgb(104, 191, 220);
+          }
+        
   
     /* Style all elements with the class name "city" */
 .city {
   background-color: rgb(165, 230, 231);
   color: rgb(6, 6, 6);
-  padding: 10px;
-} 
-    </style>
-    </head>
-    <body style="font-family:courier;color:#010101;">
+  padding: 10px;}
+</style>
+
     
-    <div style="background-color:#c7c6c6;padding:15px;text-align:center;">
-      <h1>Ansioluettelo</h1>
+<div style="background-color:#c7c6c6;padding:15px;text-align:center;">
     </div>
     
     <div style="overflow:auto">
@@ -100,6 +105,7 @@
         <a href ="Ansioluettelo.html"><b>Ansioluettelo</b></a>
         <a href ="Yhteystiedot.html"><b>Yhteystiedot</b></a>
     </div>  
+</style>
 
     <div class="main">
       <style>
