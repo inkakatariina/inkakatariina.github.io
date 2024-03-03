@@ -19,16 +19,16 @@ body {
 h1 {
     color: rgb(16, 12, 12);
     text-align: center;
-    font-family: patrick+hand+cs;
+    font-family: courier;
   }
   
   p {
-    font-family: patrick hand cs;
+    font-family: courier
     font-size: 20px;
     color: black;
   }
   pre {
-    font-family: patrick hand cs;
+    font-family: courier;
     font-size: 20px;
     color: black;
 
