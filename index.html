@@ -165,21 +165,42 @@ body {
     margin: 10px; /* Add margin between images */
     opacity: 0.5; /* Apply opacity to the container */
     transition: opacity 0.3s ease; /* Smooth transition */
+    width: 150px; /* Set initial width for images */
+    height: auto; /* Let the height adjust proportionally */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed container width */
+    height: auto; /* Allow the height to adjust proportionally */
   }
   
   .image-container:hover {
     opacity: 1.0; /* Change opacity on hover */
+  }
+
+  /* Media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    .image-container {
+      width: 120px; /* Set smaller width for images on smaller screens */
+    }
+  }
+
+  /* Media query for larger screens */
+  @media screen and (min-width: 800px) {
+    .image-container {
+      width: 200px; /* Set larger width for images on larger screens */
+    }
   }
 </style>
   <body>
 
     <div style="text-align:center">
       <div class="image-container">
-    <img src="koulu2.jpg" alt="Forest" width="205" height="300"></div>
+    <img src="koulu2.jpg" alt="Forest" width="305" height="400"></div>
     <div class="image-container">
-<img src="koulu3.jpg" alt="Mountains" width="205" height="300"></div>
+<img src="koulu3.jpg" alt="Mountains" width="305" height="400"></div>
 <div class="image-container">
-<img src="koulu1.jpg" alt="Italy" width="205" height="300"></div>
+<img src="koulu1.jpg" alt="Italy" width="305" height="400"></div>
   </body>
 <div style="background-color:#c7c6c6;text-align:center;padding:10px;margin-top:7px;">
   <address>
