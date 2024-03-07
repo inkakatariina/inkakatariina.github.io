@@ -6,18 +6,20 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="w3school.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.google.com/css?family=Patrick+Hand+SC'rel="stylesheet">
-    <style>
+
+<style>
     * {
       box-sizing: border-box;
     }
-    
+
+    /*sivustojen napit*/
     .menu {
       float: left;
       width: 20%;
       text-align: center;
     }
-    
+
+    /*sivuston nappien taustaväri*/
     .menu a {
       background-color: #c7c6c6;
       padding: 8px;
@@ -27,22 +29,15 @@
       color: black;
     }
     
+    /*sivun pääteksti*/
     .main {
       float: left;
       width: 50%;
       padding: 0 20px;
     }
-    
-    .right {
-      background-color: #c7c6c6;
-      float: right;
-      width: 25%;
-      padding: 15px;
-      margin-top: 15px;
-      text-align: center;
-    }
+   
     @media only screen and (max-width: 620px) {
-      /* For mobile phones: */
+      /* Puhelimen näytöille: */
       .menu, .main, .right {
         width: 100%;
       }
@@ -62,7 +57,7 @@
   color: black;
 }
 
-/* On screens that are 992px wide or less, the background color is blue */
+/* Näytöt 992px ja pienemmät (tausta väri tummempi) */
 @media screen and (max-width: 992px) {
   body {
     background-color: rgb(131, 133, 133);
@@ -70,7 +65,7 @@
   }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
+/* Näytöt 600 px ja pienemmät (tausta väri vielä tummempi) */
 @media screen and (max-width: 600px) {
   body {
     background-color: rgb(105, 107, 107);
@@ -117,7 +112,7 @@
         <hr>
     </br>
     <style>
-      p {
+      p { /*tekstiboxien rajausväri*/
         border: 2px solid powderblue;
       }
 
@@ -144,14 +139,14 @@
         <hr>
     <p><cite>Haaga-Helia</cite> Tietojenkäsittelyn tutkinto-ohjelma</p>
        
-
+<!--haaga-helian tiko video-->
         <iframe width="400" height="200" src="https://www.youtube.com/embed/P3TQXdfttG8">
         </iframe>
        
         
     
     <hr>
-
+<!-- kartta näkymä-->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.7361992957217!2d24.93381179999999!3d60.20164850000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469208606a60874b%3A0x50a651a72fbb180b!2sHaaga-Helia%20ammattikorkeakoulu!5e0!3m2!1sfi!2sfi!4v1709637515585!5m2!1sfi!2sfi" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
   </div>

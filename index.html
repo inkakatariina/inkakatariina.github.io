@@ -5,20 +5,20 @@
     <link rel="icon" type="iconi" href="iconi.png">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="w3school.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 <style>
   * {
     box-sizing: border-box;
   }
-  
+  /*sivustojen napit*/
   .menu {
     float: left;
     width: 20%;
     text-align: center;
   }
-  
+  /*sivuston nappien taustaväri*/
   .menu a {
     background-color: #c7c6c6;
     padding: 8px;
@@ -27,13 +27,13 @@
     width: 100%;
     color: black;
   }
-  
+  /*sivun pääteksti*/
   .main {
     float: left;
     width: 50%;
     padding: 0 20px;
   }
-  
+    /*etusivun kuva*/
   .right {
     background-color: #c7c6c6;
     float: right;
@@ -43,7 +43,7 @@
     text-align: center;
   }
   @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
+    /* Puhelimen näytöille: */
     .menu, .main, .right {
       width: 100%;
     }
@@ -63,7 +63,7 @@ background-color: rgb(221, 223, 223);
 color: black;
 }
 
-/* On screens that are 992px wide or less, the background color is blue */
+/* Näytöt 992px ja pienemmät (tausta väri tummempi) */
 @media screen and (max-width: 992px) {
 body {
   background-color: rgb(131, 133, 133);
@@ -71,19 +71,19 @@ body {
 }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
+/* Näytöt 600 px ja pienemmät (tausta väri vielä tummempi) */
 @media screen and (max-width: 600px) {
 body {
   background-color: rgb(105, 107, 107);
   color: white;
 }
 }
-  </style>
+</style>
+
   </head>
-  <!-- Font Awesome Icon Library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body style="font-family:courier;color:#010101;">
-    <style>
+<style>
+      /*kolmen pallon style*/
       .checked {
         color: rgb(104, 191, 220);
       }
@@ -94,7 +94,7 @@ body {
   border-radius: 50%;
   display: inline-block;
 }
-      </style>
+</style>
   
 
 <div style="background-color:#c7c6c6;padding:15px;text-align:center;">
@@ -107,26 +107,26 @@ body {
     <a href ="Minusta.html"><b>Profiili</b></a>
     <a href ="Ansioluettelo.html"><b>Ansioluettelo</b></a>
     <a href ="Yhteystiedot.html"><b>Yhteystiedot</b></a>
-</div>  
+  </div>  
 
 
   <div class="main">
     
     <h2>CV 2024</h2>
   
-    <p> Olen ahkera, motivoitunut ja luotettava IT-alan opiskelija Helsingistä. Minulla on yli 5 vuoden kokemus
+        <p> Olen ahkera, motivoitunut ja luotettava IT-alan opiskelija Helsingistä. Minulla on yli 5 vuoden kokemus
         asiakaspalvelutyössä sekä 8 vuoden kokemus lasten ja nuorten valmentamisessa sekä ohjaamisessa.</p>
-        <div style="text-align:center">
+    <div style="text-align:center">
   
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
-        </div>
+    </div>
         <p>Olen harrastanut eri urheilulajeja lähes koko elämäni, mm. voimistelua, suunnistusta sekä jalkapalloa.
         Vapaa-aikaani vietän kavereiden tai perheeni kanssa. Tämän lisäksi moottoriajoneuvot ovat lähellä
         sydäntäni. Minulta löytyy B-ajokortin lisäksi A2-ajokortti.
-    </p>
+        </p>
     
     <div style="text-align:center">
   
@@ -135,31 +135,35 @@ body {
       <span class="dot"></span>
       <span class="dot"></span>
     </div>
-    <p>  
+
+        <p>  
         Olen saanut aikaisemmilta työnantajiltani erityisesti kiitosta rohkeasta vastuunottamisesta sekä
         ryhmäohjaamisesta. Asiakaspalvelutyössä tehtäviini kuului mm. omatoiminen työpisteen avaaminen ja
         tuotteiden esillepano, sulkeminen sekä varastonhallinta, kassatyöskentely sekä itse asiakaspalvelu.
         </p>
-        <div style="text-align:center">
+      <div style="text-align:center">
   
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
-        </div>
-     <p>Olen asunut vuosina 2018-2019 vaihto-oppilaana Yhdysvalloissa, joten englanninkieli on lähes yhtä sujuvaa kuin
+      </div>
+
+        <p>Olen asunut vuosina 2018-2019 vaihto-oppilaana Yhdysvalloissa, joten englanninkieli on lähes yhtä sujuvaa kuin
         äidinkieleni.</p>
-        <div style="text-align:center">
+
+      <div style="text-align:center">
   
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
-        </div>
+      </div>
+
         <p>Haluan päästä työskentelemään ympäristössä, jossa voin kehittyä, oppia uusia työtehtäviä, mutta myös päästä työskentelemään omilla vahvuusalueillani.</p>
-  </div>
+      </div>
 
-
+<!--kuva-->
   <div class="right">
     <img src="omakuva.png" style="width:100%;">
   </div>
@@ -174,46 +178,48 @@ body {
     width: 150px; /* Set initial width for images */
     height: auto; /* Let the height adjust proportionally */
   }
-  
   .image-container img {
     max-width: 100%; /* Ensure the image doesn't exceed container width */
     height: auto; /* Allow the height to adjust proportionally */
   }
   
   .image-container:hover {
-    opacity: 1.0; /* Change opacity on hover */
+    opacity: 1.0; /* kuva kirkastuu hiirellä */
   }
 
-  /* Media query for smaller screens */
+  /* pienemmälle näytölle */
   @media screen and (max-width: 600px) {
     .image-container {
-      width: 120px; /* Set smaller width for images on smaller screens */
+      width: 120px; 
     }
   }
 
-  /* Media query for larger screens */
+  /* suuremmalle näytölle */
   @media screen and (min-width: 800px) {
     .image-container {
-      width: 200px; /* Set larger width for images on larger screens */
+      width: 200px; 
     }
   }
 </style>
   <body>
 
-    <div style="text-align:center">
+  <div style="text-align:center">
       <div class="image-container">
-    <img src="koulu2.jpg" alt="Forest" width="305" height="400"></div>
-    <div class="image-container">
-<img src="koulu3.jpg" alt="Mountains" width="305" height="400"></div>
-<div class="image-container">
-<img src="koulu1.jpg" alt="Italy" width="305" height="400"></div>
+        <img src="koulu2.jpg" alt="Forest" width="305" height="400"></div>
+      <div class="image-container">
+        <img src="koulu3.jpg" alt="Mountains" width="305" height="400"></div>
+      <div class="image-container">
+        <img src="koulu1.jpg" alt="Italy" width="305" height="400"></div>
   </body>
+
 <div style="background-color:#c7c6c6;text-align:center;padding:10px;margin-top:7px;">
+  
   <address>
-  <p>inkku.lindstrom@gmail.com </p>
-<p>+358 40 5623606 </p>
-© Inka Lindström
-</address>
+    <p>inkku.lindstrom@gmail.com </p>
+    <p>+358 40 5623606 </p>
+      © Inka Lindström
+  </address>
+
 </div>
 
 </body>
