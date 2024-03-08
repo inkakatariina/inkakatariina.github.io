@@ -88,7 +88,35 @@ body {
   border-radius: 50%;
   display: inline-block;
 }
+/*sivun alareunan kuvat ja niiden efektit*/
+.image-container {
+  display: inline-block; 
+  margin: 10px; 
+  opacity: 0.5; 
+  transition: opacity 0.3s ease; 
+  width: 150px; 
+  height: auto; 
+}
+.image-container img {
+  max-width: 100%; 
+  height: auto; 
+}
 
+.image-container:hover {
+  opacity: 1.0; /* kuva kirkastuu hiirellä */
+}
+/* pienemmälle näytölle */
+@media screen and (max-width: 600px) {
+  .image-container {
+    width: 120px; 
+  }
+}
+/* suuremmalle näytölle */
+@media screen and (min-width: 800px) {
+  .image-container {
+    width: 200px; 
+  }
+}
 </style>
 </head> 
 
@@ -159,43 +187,14 @@ body {
 
         <p>Haluan päästä työskentelemään ympäristössä, jossa voin kehittyä, oppia uusia työtehtäviä, mutta myös päästä työskentelemään omilla vahvuusalueillani.</p>
   </div>
+
+  
   <!--kuva-->
   <div class="right">
     <img src="omakuva.png" style="width:100%;">
   </div>
 </div>
 
-<style>
-/*sivun alareunan kuvat ja niiden efektit*/
-.image-container {
-  display: inline-block; 
-  margin: 10px; 
-  opacity: 0.5; 
-  transition: opacity 0.3s ease; 
-  width: 150px; 
-  height: auto; 
-}
-.image-container img {
-  max-width: 100%; 
-  height: auto; 
-}
-
-.image-container:hover {
-  opacity: 1.0; /* kuva kirkastuu hiirellä */
-}
-/* pienemmälle näytölle */
-@media screen and (max-width: 600px) {
-  .image-container {
-    width: 120px; 
-  }
-}
-/* suuremmalle näytölle */
-@media screen and (min-width: 800px) {
-  .image-container {
-    width: 200px; 
-  }
-}
-</style>
 
 <body>
 <div style="text-align:center">
