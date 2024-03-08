@@ -89,37 +89,6 @@ body {
   display: inline-block;
 }
 
- /*sivun alareunan kuvat ja niiden efektit*/
- .image-container {
-    display: inline-block; 
-    margin: 10px; 
-    opacity: 0.5; 
-    transition: opacity 0.3s ease; 
-    width: 150px; 
-    height: auto; 
-  }
-  .image-container img {
-    max-width: 100%; 
-    height: auto; 
-  }
-  
-  .image-container:hover {
-    opacity: 1.0; /* kuva kirkastuu hiirellä */
-  }
-
-  /* pienemmälle näytölle */
-  @media screen and (max-width: 600px) {
-    .image-container {
-      width: 120px; 
-    }
-  }
-
-  /* suuremmalle näytölle */
-  @media screen and (min-width: 800px) {
-    .image-container {
-      width: 200px; 
-    }
-  }
 </style>
 </head> 
 
@@ -192,28 +161,59 @@ body {
   </div>
 
 <!--kuva-->
-  <div class="right">
-    <img src="omakuva.png" alt="omakuva" style="width:100%;">
-  </div>
+<div class="right">
+  <img src="omakuva.png" alt="omakuva" style="width:100%;">
+</div>
+</body>
 
+<style>
+/*sivun alareunan kuvat ja niiden efektit*/
+.image-container {
+  display: inline-block; 
+  margin: 10px; 
+  opacity: 0.5; 
+  transition: opacity 0.3s ease; 
+  width: 150px; 
+  height: auto; 
+}
+.image-container img {
+  max-width: 100%; 
+  height: auto; 
+}
 
-  <div style="text-align:center">
-      <div class="image-container">
-        <img src="koulu2.jpg" alt="kuva valmistujaisista" width="305" height="400"></div>
-      <div class="image-container">
-        <img src="koulu3.jpg" alt="kuva kissasta" width="305" height="400"></div>
-      <div class="image-container">
-        <img src="koulu1.jpg" alt="kuva voimistelu joukkueesta" width="305" height="400"></div>
-  </div>
+.image-container:hover {
+  opacity: 1.0; /* kuva kirkastuu hiirellä */
+}
+/* pienemmälle näytölle */
+@media screen and (max-width: 600px) {
+  .image-container {
+    width: 120px; 
+  }
+}
+/* suuremmalle näytölle */
+@media screen and (min-width: 800px) {
+  .image-container {
+    width: 200px; 
+  }
+}
+</style>
 
+<body>
+<div style="text-align:center">
+    <div class="image-container">
+      <img src="koulu2.jpg" alt="kuva valmistujaisista" width="305" height="400"></div>
+    <div class="image-container">
+      <img src="koulu3.jpg" alt="kuva kissasta" width="305" height="400"></div>
+    <div class="image-container">
+      <img src="koulu1.jpg" alt="kuva voimistelu joukkueesta" width="305" height="400"></div>
+</body>
 <div style="background-color:#c7c6c6;text-align:center;padding:10px;margin-top:7px;">
-  
-  <address>
-    <p>inkku.lindstrom@gmail.com </p>
-    <p>+358 40 5623606 </p>
-      © Inka Lindström
-  </address>
 
+<address>
+  <p>inkku.lindstrom@gmail.com </p>
+  <p>+358 40 5623606 </p>
+    © Inka Lindström
+</address>
 </div>
 
 </body>
