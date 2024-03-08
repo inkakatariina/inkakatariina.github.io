@@ -6,213 +6,222 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="w3school.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-  * {
-    box-sizing: border-box;
-  }
-  /*sivustojen napit*/
-  .menu {
-    float: left;
-    width: 20%;
-    text-align: center;
-  }
-  /*sivuston nappien taustaväri*/
-  .menu a {
-    background-color: #c7c6c6;
-    padding: 8px;
-    margin-top: 7px;
-    display: block;
-    width: 100%;
-    color: black;
-  }
-  /*sivun pääteksti*/
-  .main {
-    float: left;
-    width: 50%;
-    padding: 0 20px;
-  }
-    /*etusivun kuva*/
-  .right {
-    background-color: #c7c6c6;
-    float: right;
-    width: 25%;
-    padding: 15px;
-    margin-top: 15px;
-    text-align: center;
-  }
-  @media only screen and (max-width: 620px) {
-    /* Puhelimen näytöille: */
-    .menu, .main, .right {
-      width: 100%;
-    }
-  }
+
+<style>
+          * {
+          box-sizing: border-box;
+          }
+
+          /*sivustojen napit*/
+          .menu {
+          float: left;
+          width: 20%;
+          text-align: center;
+          }
+
+          /*sivuston nappien taustaväri*/
+          .menu a {
+          background-color: #c7c6c6;
+          padding: 8px;
+          margin-top: 7px;
+          display: block;
+          width: 100%;
+          color: black;
+          }
+
+          /*sivun pääteksti*/
+          .main {
+          float: left;
+          width: 50%;
+          padding: 0 20px;
+          }
+
+          /*etusivun kuva*/
+          .right {
+          background-color: #c7c6c6;
+          float: right;
+          width: 25%;
+          padding: 15px;
+          margin-top: 15px;
+          text-align: center;
+          }
+
+          @media only screen and (max-width: 620px) {
+          /* Puhelimen näytöille: */
+          .menu, .main, .right {
+          width: 100%;
+          }
+          }
  
-  body {
-    background-color: rgb(221, 223, 223)
-  }
+          body {
+          background-color: rgb(221, 223, 223)
+          }
   
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: rgb(131, 133, 133);
-    }
-  }
-  body {
-background-color: rgb(221, 223, 223);
-color: black;
-}
+          @media only screen and (max-width: 600px) {
+          body {
+          background-color: rgb(131, 133, 133);
+          }
+          }
+          body {
+          background-color: rgb(221, 223, 223);
+          color: black;
+          }
 
-/* Näytöt 992px ja pienemmät (tausta väri tummempi) */
-@media screen and (max-width: 992px) {
-body {
-  background-color: rgb(131, 133, 133);
-  color: white;
-}
-}
+          
+          /* Näytöt 992px ja pienemmät (tausta väri tummempi) */
+          @media screen and (max-width: 992px) {
+          body {
+          background-color: rgb(131, 133, 133);
+          color: white;
+          }
+          }
 
-/* Näytöt 600 px ja pienemmät (tausta väri vielä tummempi) */
-@media screen and (max-width: 600px) {
-body {
-  background-color: rgb(105, 107, 107);
-  color: white;
-}
-}
+          /* Näytöt 600 px ja pienemmät (tausta väri vielä tummempi) */
+          @media screen and (max-width: 600px) {
+          body {
+          background-color: rgb(105, 107, 107);
+          color: white;
+          }
+          }
 
-      /*kolmen pallon style*/
-      .checked {
-        color: rgb(104, 191, 220);
-      }
-      .dot {
-  height: 5px;
-  width: 5px;
-  background-color: #121212;
-  border-radius: 50%;
-  display: inline-block;
-}
-/*sivun alareunan kuvat ja niiden efektit*/
-.image-container {
-  display: inline-block; 
-  margin: 10px; 
-  opacity: 0.5; 
-  transition: opacity 0.3s ease; 
-  width: 150px; 
-  height: auto; 
-}
-.image-container img {
-  max-width: 100%; 
-  height: auto; 
-}
+          /*kolmen pallon style*/
+          .checked {
+          color: rgb(104, 191, 220);
+          }
+          .dot {
+          height: 5px;
+          width: 5px;
+          background-color: #121212;
+          border-radius: 50%;
+          display: inline-block;
+          }
 
-.image-container:hover {
-  opacity: 1.0; /* kuva kirkastuu hiirellä */
-}
-/* pienemmälle näytölle */
-@media screen and (max-width: 600px) {
-  .image-container {
-    width: 120px; 
-  }
-}
-/* suuremmalle näytölle */
-@media screen and (min-width: 800px) {
-  .image-container {
-    width: 200px; 
-  }
-}
+          /*sivun alareunan kuvat ja niiden efektit*/
+          .image-container {
+          display: inline-block; 
+          margin: 10px; 
+          opacity: 0.5; 
+          transition: opacity 0.3s ease; 
+          width: 150px; 
+          height: auto; 
+          }
+          .image-container img {
+          max-width: 100%; 
+          height: auto; 
+          }
+
+          .image-container:hover {
+          opacity: 1.0; /* kuva kirkastuu hiirellä */
+          }
+
+          /* pienemmälle näytölle */
+          @media screen and (max-width: 600px) {
+          .image-container {
+          width: 120px; 
+          }
+          }
+
+          /* suuremmalle näytölle */
+          @media screen and (min-width: 800px) {
+          .image-container {
+          width: 200px; 
+          }
+          }
 </style>
 </head> 
 
-<body style="font-family:courier;color:#010101;">
+    <body style="font-family:courier;color:#010101;">
 
-<div style="background-color:#c7c6c6;padding:15px;text-align:center;">
-  <h1>Inka Lindström</h1>
-</div>
+            <div style="background-color:#c7c6c6;padding:15px;text-align:center;">
+              <h1>Inka Lindström</h1>
+            </div>
 
-<div style="overflow:auto">
-  <div class="menu">
-    <a href ="index.html"><b>Etusivu</b></a>
-    <a href ="Minusta.html"><b>Profiili</b></a>
-    <a href ="Ansioluettelo.html"><b>Ansioluettelo</b></a>
-    <a href ="Yhteystiedot.html"><b>Yhteystiedot</b></a>
-  </div>  
+            <div style="overflow:auto">
+            <div class="menu">
+                  <a href ="index.html"><b>Etusivu</b></a>
+                  <a href ="Minusta.html"><b>Profiili</b></a>
+                  <a href ="Ansioluettelo.html"><b>Ansioluettelo</b></a>
+                  <a href ="Yhteystiedot.html"><b>Yhteystiedot</b></a>
+            </div>  
 
 
-  <div class="main">
+            <div class="main">
     
-    <h2>CV 2024</h2>
+              <h2>CV 2024</h2>
   
-        <p> Olen ahkera, motivoitunut ja luotettava IT-alan opiskelija Helsingistä. Minulla on yli 5 vuoden kokemus
-        asiakaspalvelutyössä sekä 8 vuoden kokemus lasten ja nuorten valmentamisessa sekä ohjaamisessa.</p>
-    <div style="text-align:center">
+                  <p> Olen ahkera, motivoitunut ja luotettava IT-alan opiskelija Helsingistä. Minulla on yli 5 vuoden kokemus
+                      asiakaspalvelutyössä sekä 8 vuoden kokemus lasten ja nuorten valmentamisessa sekä ohjaamisessa.</p>
+            <div style="text-align:center">
   
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-    </div>
-        <p>Olen harrastanut eri urheilulajeja lähes koko elämäni, mm. voimistelua, suunnistusta sekä jalkapalloa.
-        Vapaa-aikaani vietän kavereiden tai perheeni kanssa. Tämän lisäksi moottoriajoneuvot ovat lähellä
-        sydäntäni. Minulta löytyy B-ajokortin lisäksi A2-ajokortti.
-        </p>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+            </div>
+                  <p> Olen harrastanut eri urheilulajeja lähes koko elämäni, mm. voimistelua, suunnistusta sekä jalkapalloa.
+                      Vapaa-aikaani vietän kavereiden tai perheeni kanssa. Tämän lisäksi moottoriajoneuvot ovat lähellä
+                      sydäntäni. Minulta löytyy B-ajokortin lisäksi A2-ajokortti.
+                 </p>
     
-    <div style="text-align:center">
+            <div style="text-align:center">
   
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+            </div>
 
-        <p>  
-        Olen saanut aikaisemmilta työnantajiltani erityisesti kiitosta rohkeasta vastuunottamisesta sekä
-        ryhmäohjaamisesta. Asiakaspalvelutyössä tehtäviini kuului mm. omatoiminen työpisteen avaaminen ja
-        tuotteiden esillepano, sulkeminen sekä varastonhallinta, kassatyöskentely sekä itse asiakaspalvelu.
-        </p>
-      <div style="text-align:center">
+                  <p> Olen saanut aikaisemmilta työnantajiltani erityisesti kiitosta rohkeasta vastuunottamisesta sekä
+                      ryhmäohjaamisesta. Asiakaspalvelutyössä tehtäviini kuului mm. omatoiminen työpisteen avaaminen ja
+                      tuotteiden esillepano, sulkeminen sekä varastonhallinta, kassatyöskentely sekä itse asiakaspalvelu.
+                  </p>
+            <div style="text-align:center">
   
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-      </div>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+            </div>
 
-        <p>Olen asunut vuosina 2018-2019 vaihto-oppilaana Yhdysvalloissa, joten englanninkieli on lähes yhtä sujuvaa kuin
-        äidinkieleni.</p>
+                  <p> Olen asunut vuosina 2018-2019 vaihto-oppilaana Yhdysvalloissa, joten englanninkieli on lähes yhtä sujuvaa kuin
+                      äidinkieleni.</p>
 
-      <div style="text-align:center">
+            <div style="text-align:center">
   
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-      </div>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+            </div>
 
-        <p>Haluan päästä työskentelemään ympäristössä, jossa voin kehittyä, oppia uusia työtehtäviä, mutta myös päästä työskentelemään omilla vahvuusalueillani.</p>
-  </div>
+                  <p> Haluan päästä työskentelemään ympäristössä, jossa voin kehittyä, oppia uusia työtehtäviä, mutta myös päästä työskentelemään omilla vahvuusalueillani.</p>
+            </div>
 
 
   <!--kuva-->
-  <div class="right">
-    <img src="omakuva.png" alt="omakuva" style="width:100%;">
-  </div>
-</div>
+            <div class="right">
+                  <img src="omakuva.png" alt="omakuva" style="width:100%;">
+            </div>
+            </div>
 
 
 
-<div style="text-align:center">
-    <div class="image-container">
-      <img src="koulu2.jpg" alt="kuva valmistujaisista" width="305" height="400"></div>
-    <div class="image-container">
-      <img src="koulu3.jpg" alt="kuva kissasta" width="305" height="400"></div>
-    <div class="image-container">
-      <img src="koulu1.jpg" alt="kuva voimistelu joukkueesta" width="305" height="400"></div>
-</div>
-<div style="background-color:#c7c6c6;text-align:center;padding:10px;margin-top:7px;">
+            <div style="text-align:center">
+            <div class="image-container">
+                  <img src="koulu2.jpg" alt="kuva valmistujaisista" width="305" height="400"></div>
+            <div class="image-container">
+                  <img src="koulu3.jpg" alt="kuva kissasta" width="305" height="400"></div>
+            <div class="image-container">
+                  <img src="koulu1.jpg" alt="kuva voimistelu joukkueesta" width="305" height="400"></div>
+            </div>
+            <div style="background-color:#c7c6c6;text-align:center;padding:10px;margin-top:7px;">
 
-<address>
-  <p>inkku.lindstrom@gmail.com </p>
-  <p>+358 40 5623606 </p>
-    © Inka Lindström
-</address>
-</div>
+            <address>
+                  <p>inkku.lindstrom@gmail.com </p>
+                  <p>+358 40 5623606 </p>
+                   © Inka Lindström
+            </address>
+            </div>
 
 </body>
 </html>
